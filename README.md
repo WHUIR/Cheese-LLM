@@ -13,13 +13,37 @@ We chose the name 'Cheese'(芝士) because it sounds similarly to 'Knowledge'(�
 ⚠️ All model weights and data are for **research use ONLY**. Commercial use is **strictly prohibited**. We accept **NO responsibility or liability** for any use of our data, code or weights.
 
 This is the repo for the Cheese project, which aims to build a chinese chat model with LLaMA. This repository contains:
-<!-- -  [dialogs](data) from Quora, StackOverFlow and MedQuAD questions
-- The [code](collect.py) for collecting self-chat data
-- The [code](finetune.py) for training 
-- The [code](generate.py) for chat model demo (forked from [Alpaca-lora](https://github.com/tloen/alpaca-lora)) -->
+- The [dialogs](data) from Zhihu questions.
+- The [code](finetune.py) for training with DeepSpeed, Lora.
+- The [code](generate.py) for chat model demo (forked from [Alpaca-lora](https://github.com/tloen/alpaca-lora)).
 
-### Model Release
-- [Cheese-7B](https://huggingface.co/xxxxx)
+### Model Hub
+You can download all the above models in 🤗Model Hub, and use [🤗transformers](https://github.com/huggingface/transformers) and [🤗PEFT](https://github.com/huggingface/peft) to call Chinese LLaMA or the Alpaca LoRA model.
+
+| Model              |             MODEL_NAME             |                             Link                             |
+| ------------------ | :--------------------------------: | :----------------------------------------------------------: |
+| Cheese-LLaMA-7B       | /cheese-llama-lora-7b       | [Model Hub Link]() |
+
+
+## Performance
+
+To assess the performance of our model, we conducted a evaluation of ten tasks of proposed method on 200 queries. 
+Please note that reply generation is random and subject to various factors such as decoding hyperparameters and random seeds. Therefore, the following evaluations are not completely rigorous, and the test results should be used as a reference only. We encourage you to experience our model firsthand. For detailed evaluation results, please refer to .
+
+| Task                           |                     Samples                     |  #   | Alpaca-7B | Chinese-Alpaca-Plus-7B | Cheese-Alpace-7B |
+| ------------------------------ | :---------------------------------------------: | :--: | :-------: | :--------: | :------------: |
+| **💯 Overall** |                   -                    |  200   |     65.3     |      70.9      |     **👍🏻75.3**     |
+| Question Answering |            [QA.md](./examples/QA.md)            |   20   |      66       |       74       |      **👍🏻80**      |
+| Open QA |           [OQA.md](./OQA.md)           |   20   |   **👍🏻79**    |       74       |      **👍🏻78**      |
+| Computation, Reasoning |     [REASONING.md](./examples/REASONING.md)     |   20   |      31       |    **👍🏻50**    |         45         |
+| Poetry, Literature, Philosophy |    [LITERATURE.md](./examples/LITERATURE.md)    |   20   |      68       |       73       |      **👍🏻76**      |
+| Music, Sports, Entertainment | [ENTERTAINMENT.md](./examples/ENTERTAINMENT.md) |   20   |      68       |       74       |      **👍🏻79**      |
+| Letters and Articles |    [GENERATION.md](./examples/GENERATION.md)    |   20   |      76       |    **👍🏻81**    |      **👍🏻81**      |
+| Translation |   [TRANSLATION.md](./examples/TRANSLATION.md)   |   20   |      76       |       78       |      **👍🏻82**      |
+| Multi-turn Dialogue |      [DIALOGUE.md](./examples/DIALOGUE.md)      |   20   |   **👍🏻83**    |       73       |      **👍🏻84**      |
+| Coding   |          [CODE.md](./examples/CODE.md)          |   20   |      57       |    **👍🏻64**    |         59         |
+| Ethics |        [ETHICS.md](./examples/ETHICS.md)        |   20   |      49      |       68       |      **👍🏻89**      |
+
 
 ## CLI and API
 Now you can use Cheese with [Fastchat](https://github.com/lm-sys/FastChat) for the CLI and API provided by Fastchat!
