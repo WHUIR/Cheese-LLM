@@ -141,3 +141,8 @@ python merge_lora.py \
 --target ~/model_weights/baize-7b \
 --lora project-baize/baize-lora-7B
 ```
+
+## Contributors
+Kui Liu, Shirui Hu, Yesheng Liu, Xuekong Xu, Zihao Li, Rui Zhu, Xinyu Zou
+### Principle Investigator (PI)
+Chenliang Li, Lixin Zou
