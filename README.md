@@ -154,4 +154,4 @@ Aixin Sun, Nanyang Technological University
 
 Qi Zhang, Fudan University
 
-One night in Beijing: A wonderful dinner at 串亭居酒屋 (a Japanese Izakaya located at Tsinghua Tech. Park) with Kang Liu, Zhiyuan Liu, Xipeng Qiu, Jiajun Zhang, Binyang Li and Xianpei Han
+One February night in Beijing: A wonderful dinner at 串亭居酒屋 (a Japanese Izakaya located at Tsinghua Tech. Park) with Kang Liu, Zhiyuan Liu, Xipeng Qiu, Jiajun Zhang, Binyang Li and Xianpei Han
