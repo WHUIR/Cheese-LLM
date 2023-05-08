@@ -145,4 +145,10 @@ python merge_lora.py \
 ## Contributors
 Kui Liu, Shirui Hu, Yesheng Liu, Xuekong Xu, Zihao Li, Rui Zhu, Xinyu Zou
 ### Principle Investigator (PI)
-Chenliang Li, Lixin Zou
+Lixin Zou, Chenliang LI
+
+## Acknowledgement
+School of Cyber Science and Engineering, Wuhan University
+Aixin Sun, Nanyang Technological University
+Qi Zhang, Fudan University
+A wonderful dinner at 串亭居酒屋 (a Japanese Izakaya located at Tsinghua Tech. Park) with Kang Liu, Zhiyuan Liu, Xipeng Qiu, Jiajun Zhang, Binyang Li and Xianpei Han
