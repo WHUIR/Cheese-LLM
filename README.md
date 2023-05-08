@@ -7,10 +7,10 @@ Cheese is an open-source LLM trained for the Chinese language by Data Intelligen
 
 
 ## Why it's called Cheese?
-We chose the name 'Cheese'(芝士) because it sounds similarly to 'Knowledge' (知识) in Chinese and is spelled similar to 'Chinese' in English. This reflects our commitment to developing a chatbot model that is knowledgeable in Chinese language, as well as our emphasis on providing a helpful and informative AI assistant.
+We chose the name 'Cheese'(芝士) because its Chinese words sounds similarly to 'Knowledge'(知识) and is spelled similar to 'Chinese' in English. This reflects our commitment to developing LLMs that are more knowledgeable in Chinese language, as well as our emphasis on providing a helpful and informative AI assistant.
 
 ## Overview
-⚠️ All model weights and data are for **research use ONLY**. Commercial use is **strictly prohibited**. We accept **NO responsibility or liability** for any use of our data, code or weights.
+⚠️ All model weights and data released here are for **research use ONLY**. Commercial use is **strictly prohibited**. We accept **NO responsibility or liability** for any use of our weights, codes or data.
 
 This is the repo for the Cheese project, which aims to build a chinese chat model with LLaMA. This repository contains:
 - The [dialogs](data) from 700K questions.
