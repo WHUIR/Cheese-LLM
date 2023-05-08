@@ -12,8 +12,8 @@ We chose the name 'Cheese'(芝士) because its Chinese words sounds similarly to
 ## Overview
 ⚠️ All model weights and data released here are for **research use ONLY**. Commercial use is **strictly prohibited**. We accept **NO responsibility or liability** for any use of our weights, codes or data.
 
-This is the repo for the Cheese project, which aims to build a chinese chat model with LLaMA. This repository contains:
-- The [dialogs](data) from 700K questions.
+This is the repo for the Cheese project, which aims to build a series of Chinese LLMs with LLaMA. This repository contains:
+- The [clean data](data) used for our model training.
 - The [code](finetune.py) for training with DeepSpeed, Lora.
 - The [code](generate.py) for chat model demo (forked from [Alpaca-lora](https://github.com/tloen/alpaca-lora)).
 
