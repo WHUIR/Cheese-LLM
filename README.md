@@ -74,7 +74,7 @@ python ./scripts/merge_lora.py \
 --lora cheese-llm/cheese-lora
 ``` 
 
-## Performance
+<!-- ## Performance
 To evaluate the performance of our model, we compared it with two other models: [Alpaca-7B](https://github.com/tloen/alpaca-lora) and [Chinese-Alpaca-Plus-7B](https://github.com/ymcui/Chinese-LLaMA-Alpaca). Utilizing the [evaluation setting](https://github.com/ymcui/Chinese-LLaMA-Alpaca/blob/main/examples/README.md), we conducted an assessment of ten tasks proposed by our method using 200 queries. It is important to note that response generation is stochastic and influenced by several factors, including decoding hyperparameters and random seeds. Consequently, the evaluations presented here are not entirely rigorous and should only be used as a reference. We encourage you to try our model firsthand.
 
 | Task                           |                     Samples                     |  #   | Alpaca-7B | Chinese-Alpaca-Plus-7B | Cheese-Alpace-7B |
@@ -89,7 +89,7 @@ To evaluate the performance of our model, we compared it with two other models: 
 | Translation |   [TRANSLATION.md](./examples/TRANSLATION.md)   |   20   |      76       |       78       |      **👍🏻82**      |
 | Multi-turn Dialogue |      [DIALOGUE.md](./examples/DIALOGUE.md)      |   20   |   **👍🏻83**    |       73       |      **👍🏻84**      |
 | Coding   |          [CODE.md](./examples/CODE.md)          |   20   |      57       |    **👍🏻64**    |         59         |
-| Ethics |        [ETHICS.md](./examples/ETHICS.md)        |   20   |      49      |       68       |      **👍🏻89**      |
+| Ethics |        [ETHICS.md](./examples/ETHICS.md)        |   20   |      49      |       68       |      **👍🏻89**      | -->
 
 
 
