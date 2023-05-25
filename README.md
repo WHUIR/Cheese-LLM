@@ -61,7 +61,7 @@ to update
 ```bash
 to update
 ```
-
+<!-- 
 
 ### Merge LoRA into LLaMA
 Now you can easily merge the trained LoRA weights into a LLaMA model so you can use it with everything that supports standard Hugging Face API!
@@ -72,7 +72,7 @@ python ./scripts/merge_lora.py \
 --base decapoda-research/llama-7b-hf  \
 --target ./cheese-llama-7b \
 --lora cheese-llm/cheese-lora
-``` 
+```  -->
 
 <!-- ## Performance
 To evaluate the performance of our model, we compared it with two other models: [Alpaca-7B](https://github.com/tloen/alpaca-lora) and [Chinese-Alpaca-Plus-7B](https://github.com/ymcui/Chinese-LLaMA-Alpaca). Utilizing the [evaluation setting](https://github.com/ymcui/Chinese-LLaMA-Alpaca/blob/main/examples/README.md), we conducted an assessment of ten tasks proposed by our method using 200 queries. It is important to note that response generation is stochastic and influenced by several factors, including decoding hyperparameters and random seeds. Consequently, the evaluations presented here are not entirely rigorous and should only be used as a reference. We encourage you to try our model firsthand.
