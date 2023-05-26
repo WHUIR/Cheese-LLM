@@ -15,8 +15,9 @@ We chose the name 'Cheese'(芝士) because its Chinese words sounds similarly to
 ## Overview
 Please be advised that all model weights and data provided here are intended for **research purposes ONLY**. Any commercial use of this information is **strictly prohibited**. We assume **no responsibility or liability** for any consequences resulting from the use of our weights, codes, or data.
 
-Our objective in this repository is to construct a series of Chinese-LLM using LLaMA. The repository encompasses the following components:
-- The [code]() for pre-training and supervised fine-tuning, utilizing DeepSpeed and Lora.
+Our objective in this repository is to construct a series of Chinese-LLM using LLaMA. 
+The repository encompasses the following components:
+<!-- - The [code]() for pre-training and supervised fine-tuning, utilizing DeepSpeed and Lora.
 - The [code]() for reinforcement learning, which incorporates human feedback.
 - The [code]() for deploying the model with FastChat.
 - The [code]() for integrating the Lora weights into the Llama model.
@@ -59,7 +60,7 @@ to update
 
 4. RLHF:
 ```bash
-to update
+to update -->
 ```
 <!-- 
 
