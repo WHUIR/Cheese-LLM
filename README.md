@@ -17,7 +17,8 @@ Please be advised that all model weights and data provided here are intended for
 
 Our objective in this repository is to construct a series of Chinese-LLM using LLaMA. 
 The repository encompasses the following components:
-<!-- - The [code]() for pre-training and supervised fine-tuning, utilizing DeepSpeed and Lora.
+<!-- 
+- The [code]() for pre-training and supervised fine-tuning, utilizing DeepSpeed and Lora.
 - The [code]() for reinforcement learning, which incorporates human feedback.
 - The [code]() for deploying the model with FastChat.
 - The [code]() for integrating the Lora weights into the Llama model.
@@ -60,8 +61,9 @@ to update
 
 4. RLHF:
 ```bash
-to update -->
+to update 
 ```
+-->
 <!-- 
 
 ### Merge LoRA into LLaMA
