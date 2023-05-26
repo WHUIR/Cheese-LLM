@@ -92,7 +92,7 @@ To evaluate the performance of our model, we compared it with two other models: 
 | Translation |   [TRANSLATION.md](./examples/TRANSLATION.md)   |   20   |      76       |       78       |      **👍🏻82**      |
 | Multi-turn Dialogue |      [DIALOGUE.md](./examples/DIALOGUE.md)      |   20   |   **👍🏻83**    |       73       |      **👍🏻84**      |
 | Coding   |          [CODE.md](./examples/CODE.md)          |   20   |      57       |    **👍🏻64**    |         59         |
-| Ethics |        [ETHICS.md](./examples/ETHICS.md)        |   20   |      49      |       68       |      **👍🏻89**      | -->
+| Ethics |        [ETHICS.md](./examples/ETHICS.md)        |   20   |      49      |       68       |      **👍🏻89**      | 
 
 
 
@@ -103,7 +103,7 @@ You can download all the above models in 🤗Model Hub, and use [🤗transformer
 | ------------------ | :--------------------------------: | :----------------------------------------------------------: |
 | Cheese-LLaMA-7B    | cheese-llama-7b       | [Model Hub Link]() |
 | Cheese-RLHF-LLaMA-7B| cheese-rlhf-llama-7b       | to update |
-
+-->
 
 ## Contributors
 Kui Liu, Shirui Hu, Yesheng Liu, Xuekong Xu, Zihao Li, Rui Zhu, Xinyu Zou
