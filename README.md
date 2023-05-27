@@ -16,7 +16,7 @@ We chose the name 'Cheese'(芝士) because its Chinese words sounds similarly to
 Please be advised that all model weights and data provided here are intended for **research purposes ONLY**. Any commercial use of this information is **strictly prohibited**. We assume **no responsibility or liability** for any consequences resulting from the use of our weights, codes, or data.
 
 ## Usage 
-### TO be updated!
+### To be updated!
 
 ## Contributors
 Kui Liu, Shirui Hu, Yesheng Liu, Xuekong Xu, Zihao Li, Rui Zhu, Xinyu Zou
