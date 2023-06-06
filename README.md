@@ -23,7 +23,8 @@ We offer int8 quantizations, which will largely reduce the GPU memory consumptio
 ## Evaluation and Benchmark
 Since our CheeseLLM focuses on Chinese language, we conduct an automatic evaluation by using ChatGPT-3.5 for rating the response. The models in comparison include ChatGPT-3.5, Chinese-Alpaca-Plus-7B, Chinese-Alpaca-13B. We choose to follow the same evaluation setting of [BELLE](https://github.com/LianjiaTech/BELLE/tree/main/eval) and [Phoenix](https://github.com/FreedomIntelligence/LLMZoo). Specifically, there are about 1,000 questions that can be classified into ten categories: Math, Extract, Closed QA, Rewrite, Summarization, Generation, Classification, Brainstorming, Open QA, Code. Each category contains around 100 questions with the predetermined prompts for rating the results. The performance comparison is reported as follow:
 
-
+| Category | ChatGPT-3.5 |  CheeseLLM-v1.0  | Chinese-Alpaca-Plus-7B | Chinese-Alpaca-13B |
+| :-------- | :------: | :----------: | :----------------: | :-----------------------: |
 
 ### Limitations
 
