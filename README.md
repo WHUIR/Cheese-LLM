@@ -37,7 +37,7 @@ Since our CheeseLLM focuses on Chinese language, we conduct an automatic evaluat
 | Code | 106.81 | 100 | 98.47 | 90.00 |
 | Overall | 110.38 | 100 | 90.57 | 85.59 |
 
-The questions, responses and ratings for all models in comparison are publicly released [here](). Briefly, our model achieves up to 90.5% performance of ChatGPT-3.5.
+The questions, responses and ratings for all models in comparison are publicly released [here](). Briefly, our model achieves up to 90.5% performance of ChatGPT-3.5. The scores of CheeseLM are from the corresponding int8 quantization version.
 ### Limitations
 
 
