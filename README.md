@@ -21,10 +21,21 @@ We offer int8 quantizations, which will largely reduce the GPU memory consumptio
 
 
 ## Evaluation and Benchmark
-Since our CheeseLLM focuses on Chinese language, we conduct an automatic evaluation by using ChatGPT-3.5 for rating the response. The models in comparison include ChatGPT-3.5, Chinese-Alpaca-Plus-7B, Chinese-Alpaca-13B. We choose to follow the same evaluation setting of [BELLE](https://github.com/LianjiaTech/BELLE/tree/main/eval) and [Phoenix](https://github.com/FreedomIntelligence/LLMZoo). Specifically, there are about 1,000 questions that can be classified into ten categories: Math, Extract, Closed QA, Rewrite, Summarization, Generation, Classification, Brainstorming, Open QA, Code. Each category contains around 100 questions with the predetermined prompts for rating the results. The performance comparison is reported as follow:
+Since our CheeseLLM focuses on Chinese language, we conduct an automatic evaluation by using ChatGPT-3.5 for rating the response. The models in comparison include ChatGPT-3.5, Chinese-Alpaca-Plus-7B, Chinese-Alpaca-13B. We choose to follow the same evaluation setting of [BELLE](https://github.com/LianjiaTech/BELLE/tree/main/eval) and [Phoenix](https://github.com/FreedomIntelligence/LLMZoo). Specifically, there are about 1,000 questions that can be classified into ten categories: Math, Extract, Closed QA, Rewrite, Summarization, Generation, Classification, Brainstorming, Open QA, Code. Each category contains around 100 questions with the predetermined prompts for rating the results. The scores are normalized such that CheeseLLM is 100. The performance comparison is reported as follow:
 
 | Category | ChatGPT-3.5 |  CheeseLLM-v1.0  | Chinese-Alpaca-Plus-7B | Chinese-Alpaca-13B |
 | :-------- | :------: | :----------: | :----------------: | :-----------------------: |
+| Math | 159.16 | 100 | 70.11 | 33.04 |
+| Extract | 111.11 | 100 | 90.94 | 91.99 |
+| Closed QA | 104.50 | 100 | 96.20 | 92.05 |
+| Rewrite | 110.95 | 100 | 90.92 | 89.38 |
+| Summarization | 111.96 | 100 | 95.02 | 98.40 |
+| Generation | 102.76 | 100 | 92.58 | 87.69 |
+| Classification | 105.30 | 100 | 91.42 | 88.87 |
+| Brainstorming | 108.20 | 100 | 92.18 | 88.05 |
+| Open QA | 107.76 | 100 | 89.82 | 88.84 |
+| Code | 106.81 | 100 | 98.47 | 90.00 |
+| Overall | 110.38 | 100 | 90.57 | 85.59 |
 
 ### Limitations
 
