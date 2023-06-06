@@ -26,7 +26,7 @@ Since our CheeseLLM focuses on Chinese language, we conduct an automatic evaluat
 | Category | ChatGPT-3.5 |  CheeseLLM-v1.0  | Chinese-Alpaca-Plus-7B | Chinese-Alpaca-13B |
 | :-------- | :------: | :----------: | :----------------: | :-----------------------: |
 | Math | 159.16 | 100 | 70.11 | 33.04 |
-| Extract | 111.11 | 100 | 90.94 | 91.99 |
+| Extraction | 111.11 | 100 | 90.94 | 91.99 |
 | Closed QA | 104.50 | 100 | 96.20 | 92.05 |
 | Rewrite | 110.95 | 100 | 90.92 | 89.38 |
 | Summarization | 111.96 | 100 | 95.02 | 98.40 |
