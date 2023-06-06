@@ -17,10 +17,11 @@ Please be advised that all model weights and data provided here are intended for
 
 ## Usage 
 ### To be updated!
+We offer int8 quantizations, which will largely reduce the GPU memory consumption (i.e., only 7GB) and enable deployment in GPUs like 3090, 4090.
+
 
 ## Evaluation and Benchmark
-Since our CheeseLLM focuses on Chinese language, we conduct an automatic evaluation by using ChatGPT-3.5 for rating the response. The models in comparison include ChatGPT-3.5, Chinese-Alpaca-Plus-7B, Chinese-Alpaca-13B. Some statistics towards these models and our CheeseLLM are reported for reference as follow:
-
+Since our CheeseLLM focuses on Chinese language, we conduct an automatic evaluation by using ChatGPT-3.5 for rating the response. The models in comparison include ChatGPT-3.5, Chinese-Alpaca-Plus-7B, Chinese-Alpaca-13B. Specifically, we choose to follow the same evaluation setting of [BELLE](https://github.com/LianjiaTech/BELLE/tree/main/eval) and [Phoenix](https://github.com/FreedomIntelligence/LLMZoo). 
 
 
 ## Contributors
