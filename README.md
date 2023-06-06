@@ -17,7 +17,7 @@ Please be advised that all model weights and data provided here are intended for
 
 ## Usage 
 ### To be updated!
-We offer int8 quantizations, which will largely reduce the GPU memory consumption (i.e., only 7GB) and enable deployment in GPUs like 3090, 4090.
+We offer int8 quantizations, which will largely reduce the GPU memory consumption (i.e., only 7GB) and enable deployment in GPUs like 3090, 4090 and other medium alternatives.
 
 
 ## Evaluation and Benchmark
