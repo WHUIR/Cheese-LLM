@@ -19,6 +19,8 @@ Please be advised that all model weights and data provided here are intended for
 ### To be updated!
 
 ## Evaluation and Benchmark
+Since our CheeseLLM focuses on Chinese language, we conduct an automatic evaluation by using ChatGPT-3.5 for rating the response. The models in comparison include ChatGPT-3.5, Chinese-Alpaca-Plus-7B, Chinese-Alpaca-13B. Some statistics towards these models and our CheeseLLM are reported for reference as follow:
+
 
 
 ## Contributors
