@@ -16,8 +16,32 @@ We chose the name 'Cheese'(芝士) because its Chinese words sounds similarly to
 Please be advised that all model weights and data provided here are intended for **research purposes ONLY**. Any commercial use of this information is **strictly prohibited**. We assume **no responsibility or liability** for any consequences resulting from the use of our weights, codes, or data.
 
 ## Usage 
-### To be updated!
 We offer int8 quantizations, which will largely reduce the GPU memory consumption (i.e., only 7GB) and enable deployment in GPUs like 3090, 4090 and other medium alternatives.
+
+### Download
+
+You can download our model(int8 quantization version) from [Huggingface Model Hub](https://huggingface.co/models), and load it using `.from_pretrained()` function of [transformers](https://github.com/huggingface/transformers).
+
+| Model          | Model Card          | Link                                                         |
+| :------------- | ------------------- | ------------------------------------------------------------ |
+| CheeseLLM-v1.0 | DanceLab/Cheese-LLM | [Model Hub Link](https://huggingface.co/DanceLab/Cheese-LLM) |
+
+### Inference
+
+We use [gradio](https://github.com/gradio-app/gradio) to build a simple interface to show the effects of inference.
+
+```bash
+python scripts/infer.py \
+    --base_model path_to_cheesellm_dir \
+    --tokenizer_path path_to_tokenizer_dir \
+    --with_prompt
+```
+
+Arguments description:
+
+- `--base_model {base model}`: the path of CheeseLLM model.
+- `--tokenizer_path {tokenizer_path}`: the path of tokenizer.
+- `--with_prompt`: whether to merge input with prompt template.
 
 
 ## Evaluation and Benchmark
@@ -37,7 +61,7 @@ Since our CheeseLLM focuses on Chinese language, we conduct an automatic evaluat
 | Code | 106.81 | 100 | 98.47 | 90.00 |
 | Overall | 110.38 | 100 | 90.57 | 85.59 |
 
-The questions, responses and ratings for all models in comparison are publicly released [here](). Briefly, our model achieves up to 90.5% performance of ChatGPT-3.5. The scores of CheeseLM are from the corresponding int8 quantization version.
+The questions, responses and ratings for all models in comparison are publicly released [here](). Briefly, our model achieves up to 90.5% performance of ChatGPT-3.5. The scores of CheeseLLM are from the corresponding int8 quantization version.
 ### Limitations
 
 
