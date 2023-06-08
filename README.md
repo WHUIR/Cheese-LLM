@@ -49,7 +49,7 @@ Since our CheeseLLM focuses on Chinese language, we conduct an automatic evaluat
 
 | Category | ChatGPT-3.5 |  CheeseLLM-v1.0  | Chinese-Alpaca-Plus-7B | Chinese-Alpaca-13B |
 | :-------- | :------: | :----------: | :----------------: | :-----------------------: |
-| Math | 159.16 | 100 | 70.11 | 33.04 |
+| Overall | 110.38 | 100 | 90.57 | 85.59 |
 | Extraction | 111.11 | 100 | 90.94 | 91.99 |
 | Closed QA | 104.50 | 100 | 96.20 | 92.05 |
 | Rewrite | 110.95 | 100 | 90.92 | 89.38 |
@@ -59,7 +59,7 @@ Since our CheeseLLM focuses on Chinese language, we conduct an automatic evaluat
 | Brainstorming | 108.20 | 100 | 92.18 | 88.05 |
 | Open QA | 107.76 | 100 | 89.82 | 88.84 |
 | Code | 106.81 | 100 | 98.47 | 90.00 |
-| Overall | 110.38 | 100 | 90.57 | 85.59 |
+| Math | 159.16 | 100 | 70.11 | 33.04 |
 
 The questions, responses and ratings for all models in comparison are publicly released [here](). Briefly, our model achieves up to 90.5% performance of ChatGPT-3.5. The scores of CheeseLLM are from the corresponding int8 quantization version.
 ### Limitations
