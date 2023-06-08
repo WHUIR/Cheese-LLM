@@ -24,7 +24,7 @@ You can download our model(int8 quantization version) from [Huggingface Model Hu
 
 | Model          | Model Card          | Link                                                         |
 | :------------- | ------------------- | ------------------------------------------------------------ |
-| CheeseLLM-v1.0 | DanceLab/Cheese-LLM | [Model Hub Link](https://huggingface.co/DanceLab/Cheese-LLM) |
+| CheeseLLM-v1.0 | DanceLab/Cheese-LLM | [Model Hub Link](https://huggingface.co/DanceLab/cheese-llm-v1) |
 
 ### Inference
 
