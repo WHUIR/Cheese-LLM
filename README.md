@@ -1,5 +1,5 @@
 <p align="center">
-<img width="500px" alt="Project Cheese-LLM" src="https://github.com/WHUIR/Cheese-ChatBot/blob/96fd23596b6579da96260c3fbdf068ac29a451f1/Cheese.png">
+<img width="500px" alt="Project Cheese-LLM" src="https://github.com/WHUIR/Cheese-LLM/blob/00b10df37b31aa923cfc0faad175dca64490d41b/Cheese.png">
 </p>
 
 ## What's Cheese?
