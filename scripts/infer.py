@@ -50,7 +50,6 @@ if __name__ == '__main__':
     if device==torch.device('cpu'):
         base_model.float()
 
-    base_model.to(device)
     base_model.eval()
     def evaluate(
         instruction,
