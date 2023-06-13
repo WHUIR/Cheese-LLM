@@ -20,7 +20,7 @@ We offer int8 quantizations, which will largely reduce the GPU memory consumptio
 
 ### Download
 
-You can download our model(int8 quantization version) from [Huggingface Model Hub](https://huggingface.co/models), and load it using `.from_pretrained()` function of [transformers](https://github.com/huggingface/transformers).
+You can download our model(int8 quantization version) from [Huggingface Model Hub](https://huggingface.co/models), and load it using `.from_pretrained()` function of [transformers](https://github.com/huggingface/transformers). 
 
 | Model          | Model Card          | Link                                                         |
 | :------------- | ------------------- | ------------------------------------------------------------ |
@@ -63,6 +63,9 @@ Since our CheeseLLM focuses on Chinese language, we conduct an automatic evaluat
 
 Briefly, our model achieves up to 90.5% performance of ChatGPT-3.5. The scores of CheeseLLM are from the corresponding int8 quantization version. 
 The questions, responses and ratings for all models in comparison are publicly released [here](https://github.com/WHUIR/Cheese-LLM/tree/main/evaluation/evaluation_documents). 
+Specifically, the [belle_1k_chinese_evaluation.jsonl](https://github.com/WHUIR/Cheese-LLM/blob/main/evaluation/evaluation_documents/belle_1k_chinese_evaluation.jsonl) contains the 1,000 evaluation questions. 
+The [cheese_llm_7b_ans.jsonl]([https://github.com/WHUIR/Cheese-LLM/blob/main/evaluation/evaluation_documents/belle_1k_chinese_evaluation.jsonl](https://github.com/WHUIR/Cheese-LLM/blob/main/evaluation/evaluation_documents/cheese_llm_7b_ans.jsonl), [chinese_llama_13b_ans.jsonl](https://github.com/WHUIR/Cheese-LLM/blob/main/evaluation/evaluation_documents/chinese_llama_13b_ans.jsonl), [chinese_llama_7b_plus_ans.jsonl](https://github.com/WHUIR/Cheese-LLM/blob/main/evaluation/evaluation_documents/chinese_llama_7b_plus_ans.jsonl) and [gpt3.5_turbo_ans.jsonl](https://github.com/WHUIR/Cheese-LLM/blob/main/evaluation/evaluation_documents/gpt3.5_turbo_ans.jsonl) include the repsonses of CheeseLLM-v1.0, Chinese-Alpaca-13B, Chinese-Alpaca-Plus-7B and ChatGPT-3.5 respectively.
+
 
 ### Limitations
 
